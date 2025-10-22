@@ -1,0 +1,12 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-image: url('../img/volcan.jpg');
+    background-size: cover;
+    background-position: center;
+}
+section {
+    margin-bottom: 2rem;
+}
