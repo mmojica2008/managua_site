@@ -1,32 +1,137 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi cuidad Managua</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubre Managua</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Managua</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#quienes">Historia</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#servicios">Lugares turísticos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Gastronomía</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto / Mapa</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <h1>Lugares turísticos de managua</h1>
 
-    <footer class="bg-dark text-white text-center py-3">
-        &copy; 2025 Managua
-    </footer>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Managua Turística</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lugares">Lugares turísticos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gastronomia">Gastronomía</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="bg-light text-center text-white d-flex align-items-center" style="height: 100vh; background: url('managua.jpg') center/cover no-repeat;">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Explora los encantos de Managua</h1>
+      <p class="lead">Historia, cultura, paisajes y sabores únicos</p>
+      <a href="#lugares" class="btn btn-primary btn-lg mt-3">Ver lugares turísticos</a>
+    </div>
+  </section>
+
+  <!-- Historia -->
+  <section id="historia" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Historia de Managua</h2>
+      <p class="text-center">Managua, capital de Nicaragua, tiene una rica historia marcada por su cultura indígena, colonización española y reconstrucción tras terremotos. Hoy es una ciudad vibrante con una mezcla de tradición y modernidad.</p>
+    </div>
+  </section>
+
+  <!-- Lugares turísticos -->
+  <section id="lugares" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Lugares turísticos</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="laguna_tiscapa.jpg" class="card-img-top" alt="Laguna de Tiscapa">
+            <div class="card-body">
+              <h5 class="card-title">Laguna de Tiscapa</h5>
+              <p class="card-text">Un cráter volcánico con vistas panorámicas y el monumento a Sandino.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="puerto_salvador.jpg" class="card-img-top" alt="Puerto Salvador Allende">
+            <div class="card-body">
+              <h5 class="card-title">Puerto Salvador Allende</h5>
+              <p class="card-text">Zona turística frente al lago con restaurantes, bares y actividades familiares.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="catedral.jpg" class="card-img-top" alt="Catedral de Managua">
+            <div class="card-body">
+              <h5 class="card-title">Catedral Metropolitana</h5>
+              <p class="card-text">Arquitectura moderna y espiritualidad en el corazón de la ciudad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gastronomía -->
+  <section id="gastronomia" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Gastronomía local</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="nacatamal.jpg" class="img-fluid rounded mb-2" alt="Nacatamal">
+          <h5>Nacatamal</h5>
+        </div>
+        <div class="col-md-4">
+          <img src="vigoron.jpg" class="img-fluid rounded mb-2" alt="Vigorón">
+          <h5>Vigorón</h5>
+        </div>
+        <div class="col-md-4">
+          <img src="indio_viejo.jpg" class="img-fluid rounded mb-2" alt="Indio Viejo">
+          <h5>Indio Viejo</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contacto y ubicación</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps?q=Managua,+Nicaragua&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Descubre Managua | Todos los derechos reservados
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
