@@ -8,7 +8,7 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column min-vh-100">
- <!-- Navbar -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Managua Turística</a>
@@ -17,8 +17,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="historia.html">Historia</a></li>
           <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares turísticos</a></li>
           <li class="nav-item"><a class="nav-link" href="gastronomia.html">Gastronomía</a></li>
           <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
@@ -27,24 +27,64 @@
     </div>
   </nav>
 
-  <section class="py-5 bg-white">
+  <!-- Sección de Historia -->
+  <section class="py-5 bg-light" style="margin-top:80px;">
     <div class="container">
-      <h2 class="text-center mb-4">Historia de Managua</h2>
-      <p class="text-center">Managua, capital de Nicaragua, tiene una rica historia marcada por su cultura indígena, colonización española y reconstrucción tras terremotos. Hoy es una ciudad vibrante con una mezcla de tradición y modernidad.</p>
-       <div class="row my-5 align-items-center">
-      <div class="col-md-6">
-        <img src="images/historia2.jpg" class="img-fluid rounded shadow" alt="Managua antigua">
+      <h2 class="text-center mb-5">Historia de Managua</h2>
+      <div class="row g-4">
+        <!-- Parte 1: Orígenes y Fundación -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
++           <img src="images/Fundacion.jpg" class="mx-auto d-block" alt="Orígenes de Managua" style="max-width:500px; height:auto; object-fit:cover; margin-top:0.90rem;">
+            <div class="card-body">
+              <h5 class="card-title">Orígenes y Fundación</h5>
+              <p class="card-text">Managua, capital de Nicaragua desde 1852, está ubicada entre León y Granada. Su nombre proviene del náhuatl "Mana-ahuac", que significa "junto a las aguas", por los lagos y lagunas cercanas.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parte 2: Época Colonial -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250?text=Managua+Colonial" class="card-img-top" alt="Época colonial">
+            <div class="card-body">
+              <h5 class="card-title">Época Colonial</h5>
+              <p class="card-text">Durante la colonización española, Managua era parte del territorio de León y Granada, sirviendo como zona de paso y comercio entre estas ciudades rivales.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parte 3: Siglo XIX -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250?text=Managua+Siglo+XIX" class="card-img-top" alt="Siglo XIX">
+            <div class="card-body">
+              <h5 class="card-title">Siglo XIX y Capitalización</h5>
+              <p class="card-text">En 1852, Managua fue elegida como capital de Nicaragua para equilibrar el poder entre León y Granada, convirtiéndose en un centro administrativo y político.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parte 4: Siglo XX y Actualidad -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250?text=Managua+Actualidad" class="card-img-top" alt="Actualidad">
+            <div class="card-body">
+              <h5 class="card-title">Siglo XX y Actualidad</h5>
+              <p class="card-text">Tras los terremotos, especialmente el de 1972, la ciudad se reconstruyó. Hoy Managua es un centro cultural, económico y turístico, con una mezcla de tradición y modernidad.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-md-6">
-        <h3>Reconstrucción tras terremotos</h3>
-        <p>En el siglo XX, Managua sufrió varios terremotos, lo que llevó a la reconstrucción de la ciudad y modernización de su infraestructura urbana.</p>
-      </div>
-    </div>
     </div>
   </section>
 
- <footer class="bg-dark text-white text-center py-3 mt-auto">
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
     &copy; 2025 Managua Turística
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
