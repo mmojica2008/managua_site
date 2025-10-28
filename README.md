@@ -1,11 +1,11 @@
 # managua_site
-Lugares turísticos acerca de mi ciudad Managua
+Lugares turísticos acerca de mi ciudad Managua.
 
 # Propósito del sitio
-Tiene como propósito presentar un sitio web con estilos, imagenes y diseño atractivo de lugares de Managua
+Tiene como propósito presentar un sitio web con estilos, imagenes y diseño atractivo de lugares de Managua.
 
 # Roles de cada integrante
-- Encargado de busbar imagenes atractivas
+- Encargado de buscar imagenes atractivas
 - Creación de estructuras de archivos
 - Escribir textos
 
